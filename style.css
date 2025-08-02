@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --Yellow: #f4d04e;
+  --White: #ffffff;
+  --Gray500: #6b6b6b;
+  --Gray950: #121212;
+}
+
+ /* 375px- 1440px */
+
+@media screen and (max-width: 375px) {
+  body {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500, 800;
+  font-size: 16px;
+  background-color: var(--Yellow);
+}
+
+.container {
+  background-color: var(--White);
+  margin: 120px auto;
+  max-width: 300px;
+  padding: 10px;
+  border: 1px solid var(--Gray950);
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 0 0;
+}
+
+.image {
+  margin: 5px
+}
+
+.image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.yellow-link {
+  margin: 10px 5px;
+}
+
+.yellow-link a {
+  background-color: var(--Yellow);
+  padding: 5px;
+  text-decoration: none;
+  color: var(--Gray950);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0.2rem;
+}
+
+.date {
+  margin: 10px 5px;
+}
+
+.date > h4 {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--Gray950);
+}
+
+.heading {
+  margin: 10px 5px;
+}
+
+.heading > h3 {
+  color: var(--Gray950);
+  transition: 0.5sec;
+}
+
+.heading > h3:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+
+.paragraph {
+  margin: 10px 5px;
+}
+
+.paragraph > p {
+  color: var(--Gray500);
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  width: 15%;
+  margin: 10px;
+}
+
+.avatar img {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+}
+
+@media screen and (min-width: 375px) {
+  
+body {
+  font-family: "Figtree", sans-serif;
+  font-weight: 500, 800;
+  font-size: 16px;
+  background-color: var(--Yellow);
+}
+
+.container {
+  background-color: var(--White);
+  margin: 100px auto;
+  max-width: 350px;
+  padding: 10px;
+  border: 1px solid var(--Gray950);
+  border-radius: 0.5rem;
+  box-shadow: 5px 5px 0 0;
+}
+
+.image {
+  margin: 5px
+}
+
+.image img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+
+.yellow-link {
+  margin: 10px 5px;
+}
+
+.yellow-link a {
+  background-color: var(--Yellow);
+  padding: 5px;
+  text-decoration: none;
+  color: var(--Gray950);
+  font-weight: 600;
+  font-size: 14px;
+  border-radius: 0.2rem;
+}
+
+.date {
+  margin: 10px 5px;
+}
+
+.date > h4 {
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--Gray950);
+}
+
+.heading {
+  margin: 10px 5px;
+}
+
+.heading > h3 {
+  color: var(--Gray950);
+  transition: 0.5sec;
+}
+
+.heading > h3:hover {
+  color: var(--Yellow);
+  cursor: pointer;
+}
+
+.paragraph {
+  margin: 10px 5px;
+}
+
+.paragraph > p {
+  color: var(--Gray500);
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  width: 15%;
+  margin: 10px;
+}
+
+.avatar img {
+  width: 100%;
+  margin-right: 10px;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+}
+
+
