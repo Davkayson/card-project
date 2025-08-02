@@ -49,7 +49,7 @@
 .yellow-link a {
   background-color: var(--Yellow);
   padding: 5px;
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--Gray950);
   font-weight: 600;
   font-size: 14px;
