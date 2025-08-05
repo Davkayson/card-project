@@ -13,120 +13,29 @@
   --Gray950: #121212;
 }
 
- /* 375px- 1440px */
-
-@media screen and (max-width: 375px) {
-  body {
-  font-family: "Figtree", sans-serif;
-  font-weight: 500, 800;
-  font-size: 16px;
-  background-color: var(--Yellow);
-}
-
-.container {
-  background-color: var(--White);
-  margin: 120px auto;
-  max-width: 300px;
-  padding: 10px;
-  border: 1px solid var(--Gray950);
-  border-radius: 0.5rem;
-  box-shadow: 5px 5px 0 0;
-}
-
-.image {
-  margin: 5px
-}
-
-.image img {
-  width: 100%;
-  border-radius: 0.5rem;
-}
-
-.yellow-link {
-  margin: 10px 5px;
-}
-
-.yellow-link a {
-  background-color: var(--Yellow);
-  padding: 5px;
-  text-decoration: underline;
-  color: var(--Gray950);
-  font-weight: 600;
-  font-size: 14px;
-  border-radius: 0.2rem;
-}
-
-.date {
-  margin: 10px 5px;
-}
-
-.date > h4 {
-  font-weight: 400;
-  font-size: 14px;
-  color: var(--Gray950);
-}
-
-.heading {
-  margin: 10px 5px;
-}
-
-.heading > h3 {
-  color: var(--Gray950);
-  transition: 0.5sec;
-}
-
-.heading > h3:hover {
-  color: var(--Yellow);
-  cursor: pointer;
-}
-
-.paragraph {
-  margin: 10px 5px;
-}
-
-.paragraph > p {
-  color: var(--Gray500);
-}
-
-.avatar {
-  display: flex;
-  align-items: center;
-  font-weight: 800;
-  width: 15%;
-  margin: 10px;
-}
-
-.avatar img {
-  width: 100%;
-  margin-right: 10px;
-}
-
-.nowrap {
-  white-space: nowrap;
-}
-}
-
-@media screen and (min-width: 375px) {
-  
 body {
   font-family: "Figtree", sans-serif;
   font-weight: 500, 800;
   font-size: 16px;
+  padding: 5rem 0;
+  height: 100vh;
+  margin: 20px auto;
   background-color: var(--Yellow);
 }
 
+
 .container {
   background-color: var(--White);
-  margin: 100px auto;
-  max-width: 350px;
-  padding: 10px;
+  margin: 0 auto;
+  max-width: 300px;
+  padding: 1rem;
   border: 1px solid var(--Gray950);
-  border-radius: 0.5rem;
-  box-shadow: 5px 5px 0 0;
+  border-radius: 1rem;
+  box-shadow: 7px 7px 0 0;
 }
 
 .image {
-  margin: 5px
+  margin: 5px;
 }
 
 .image img {
@@ -135,21 +44,21 @@ body {
 }
 
 .yellow-link {
-  margin: 10px 5px;
+  margin: 25px 5px;
 }
 
 .yellow-link a {
   background-color: var(--Yellow);
-  padding: 5px;
+  padding: 7px 10px;
   text-decoration: none;
   color: var(--Gray950);
-  font-weight: 600;
+  font-weight: 800;
   font-size: 14px;
   border-radius: 0.2rem;
 }
 
 .date {
-  margin: 10px 5px;
+  margin: 20px 5px;
 }
 
 .date > h4 {
@@ -185,7 +94,7 @@ body {
   align-items: center;
   font-weight: 800;
   width: 15%;
-  margin: 10px;
+  margin: 30px 0;
 }
 
 .avatar img {
@@ -196,6 +105,52 @@ body {
 .nowrap {
   white-space: nowrap;
 }
+
+
+@media (min-width: 768px) {
+  body {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin: 0 auto;
+  }
+
+  .container {
+  background-color: var(--White);
+  margin: 0 auto;
+  max-width: 400px;
+  border: 1px solid var(--Gray950);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 0 0;
+  }
+
+  .yellow-link {
+  margin: 15px 5px;
 }
 
+.yellow-link a {
+  background-color: var(--Yellow);
+  padding: 7px 10px;
+  text-decoration: none;
+  color: var(--Gray950);
+  font-weight: 800;
+  font-size: 14px;
+  border-radius: 0.2rem;
+}
 
+.date {
+  margin: 15px 5px;
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  font-weight: 800;
+  width: 15%;
+  margin: 10px 0;
+}
+
+}
